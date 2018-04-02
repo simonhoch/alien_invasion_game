@@ -18,6 +18,7 @@ class Ship():
 
         # Store a decimal value for the ship's center.
         self.center = float(self.rect.centerx)
+
         # Movement flag.
         self.moving_right = False
         self.moving_left = False
